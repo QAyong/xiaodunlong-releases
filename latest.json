@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "product": "小盾龙短剧合规平台",
+  "version": "0.1.0",
+  "released_at": "2026-07-04",
+  "release_page": "https://github.com/QAyong/xiaodunlong-releases/releases/tag/v0.1.0",
+  "docs": {
+    "readme_url": "https://github.com/QAyong/xiaodunlong-releases/blob/main/README.md",
+    "agent_usage_url": "https://github.com/QAyong/xiaodunlong-releases/blob/main/AGENT_USAGE.md"
+  },
+  "windows": {
+    "arch": "x64",
+    "kind": "installer",
+    "filename": "小盾龙短剧合规平台-Lite-安装包.exe",
+    "size_bytes": 162376270,
+    "sha256": "7fb0263ff5598cc65a51e3ab9737c70d96bc093cacfdc392a74709c82f633fc2",
+    "direct_url": "https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/%E5%B0%8F%E7%9B%BE%E9%BE%99%E7%9F%AD%E5%89%A7%E5%90%88%E8%A7%84%E5%B9%B3%E5%8F%B0-Lite-%E5%AE%89%E8%A3%85%E5%8C%85.exe",
+    "mirror_urls": [
+      "https://gh-proxy.com/https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/%E5%B0%8F%E7%9B%BE%E9%BE%99%E7%9F%AD%E5%89%A7%E5%90%88%E8%A7%84%E5%B9%B3%E5%8F%B0-Lite-%E5%AE%89%E8%A3%85%E5%8C%85.exe"
+    ],
+    "install_args": [
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NORESTART"
+    ],
+    "verify_commands": [
+      "portrait-clearance --help",
+      "portrait-clearance resources model status"
+    ]
+  },
+  "macos": {
+    "status": "preview_pending_upload",
+    "arch": "arm64",
+    "kind": "zip_app",
+    "filename": "小盾龙短剧合规平台-macOS-preview.zip",
+    "size_bytes": 171082031,
+    "sha256": "b0c006c15b1db8c67facac3af32d1a8414d2171acbfe3891f9cf5fac824edc48",
+    "direct_url": null,
+    "mirror_urls": [],
+    "install_note": "macOS 技术预览包已由历史 GitHub Actions 构建验证，但当前公开 release 尚未上传该 zip；上传后需重新生成 latest.json 并补齐 direct_url、size_bytes 与 sha256。"
+  }
+}
