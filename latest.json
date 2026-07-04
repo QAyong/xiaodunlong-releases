@@ -29,14 +29,16 @@
     ]
   },
   "macos": {
-    "status": "preview_pending_upload",
+    "status": "preview",
     "arch": "arm64",
     "kind": "zip_app",
     "filename": "小盾龙短剧合规平台-macOS-preview.zip",
-    "size_bytes": 171082031,
+    "size_bytes": 172428656,
     "sha256": "b0c006c15b1db8c67facac3af32d1a8414d2171acbfe3891f9cf5fac824edc48",
-    "direct_url": null,
-    "mirror_urls": [],
-    "install_note": "macOS 技术预览包已由历史 GitHub Actions 构建验证，但当前公开 release 尚未上传该 zip；上传后需重新生成 latest.json 并补齐 direct_url、size_bytes 与 sha256。"
+    "direct_url": "https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/%E5%B0%8F%E7%9B%BE%E9%BE%99%E7%9F%AD%E5%89%A7%E5%90%88%E8%A7%84%E5%B9%B3%E5%8F%B0-macOS-preview.zip",
+    "mirror_urls": [
+      "https://gh-proxy.com/https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/%E5%B0%8F%E7%9B%BE%E9%BE%99%E7%9F%AD%E5%89%A7%E5%90%88%E8%A7%84%E5%B9%B3%E5%8F%B0-macOS-preview.zip"
+    ],
+    "install_note": "解压 zip 后将 小盾龙短剧合规平台.app 移动到 /Applications。当前为未签名技术预览版，首次打开可能需要在系统设置中允许。"
   }
 }
