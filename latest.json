@@ -11,12 +11,12 @@
   "windows": {
     "arch": "x64",
     "kind": "installer",
-    "filename": "小盾龙短剧合规平台-Lite-安装包.exe",
+    "filename": "PortraitClearance-Lite-Setup.exe",
     "size_bytes": 162376270,
     "sha256": "7fb0263ff5598cc65a51e3ab9737c70d96bc093cacfdc392a74709c82f633fc2",
-    "direct_url": "https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/%E5%B0%8F%E7%9B%BE%E9%BE%99%E7%9F%AD%E5%89%A7%E5%90%88%E8%A7%84%E5%B9%B3%E5%8F%B0-Lite-%E5%AE%89%E8%A3%85%E5%8C%85.exe",
+    "direct_url": "https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/PortraitClearance-Lite-Setup.exe",
     "mirror_urls": [
-      "https://gh-proxy.com/https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/%E5%B0%8F%E7%9B%BE%E9%BE%99%E7%9F%AD%E5%89%A7%E5%90%88%E8%A7%84%E5%B9%B3%E5%8F%B0-Lite-%E5%AE%89%E8%A3%85%E5%8C%85.exe"
+      "https://gh-proxy.com/https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/PortraitClearance-Lite-Setup.exe"
     ],
     "install_args": [
       "/VERYSILENT",
@@ -32,12 +32,12 @@
     "status": "preview",
     "arch": "arm64",
     "kind": "zip_app",
-    "filename": "小盾龙短剧合规平台-macOS-preview.zip",
+    "filename": "PortraitClearance-macOS-preview.zip",
     "size_bytes": 172428656,
     "sha256": "b0c006c15b1db8c67facac3af32d1a8414d2171acbfe3891f9cf5fac824edc48",
-    "direct_url": "https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/%E5%B0%8F%E7%9B%BE%E9%BE%99%E7%9F%AD%E5%89%A7%E5%90%88%E8%A7%84%E5%B9%B3%E5%8F%B0-macOS-preview.zip",
+    "direct_url": "https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/PortraitClearance-macOS-preview.zip",
     "mirror_urls": [
-      "https://gh-proxy.com/https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/%E5%B0%8F%E7%9B%BE%E9%BE%99%E7%9F%AD%E5%89%A7%E5%90%88%E8%A7%84%E5%B9%B3%E5%8F%B0-macOS-preview.zip"
+      "https://gh-proxy.com/https://github.com/QAyong/xiaodunlong-releases/releases/download/v0.1.0/PortraitClearance-macOS-preview.zip"
     ],
     "install_note": "解压 zip 后将 小盾龙短剧合规平台.app 移动到 /Applications。当前为未签名技术预览版，首次打开可能需要在系统设置中允许。"
   }
